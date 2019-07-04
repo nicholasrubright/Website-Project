@@ -1,0 +1,46 @@
+<!DOCTPYE html>
+<html>
+<body>
+
+<h2>Decimal Converter</h2>
+    
+<input id="numb">
+    
+<button type="button" onclick="convert()">Submit</button>
+    
+<p id="demo"></p>
+    
+<script>
+function convert()
+{
+    
+    var x, text;
+    
+    x = document.getElementById("numb").value;
+    /*
+    var binaryNum[32];
+    
+    var i = 0;
+    while(x > 0)
+    {
+        binaryNum[i] = x % 2;
+        x = x / 2;
+        i++;
+    }
+    text = "gottem"
+    */
+    document.getElementById("demo").innerHTML = x;
+    
+    //document.getElementById("output").innerHTML = binaryNum
+    
+    /*for(var j = i - 1; j >= 0; j--)
+    {
+        document.getElementById("output").innerHTML = binaryNum[j];
+    }
+    */
+    
+}
+
+</script>
+</body>
+</html>
