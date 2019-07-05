@@ -10,7 +10,7 @@ h1 {
 
 .button {
     width: 50%;
-    background-color: #dba3fa;
+    background-color: #cd90ee;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -20,7 +20,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: #cd90ee
+    background-color: #b682d3
 }
 
 div
