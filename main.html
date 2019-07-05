@@ -1,16 +1,18 @@
 <!DOCTPYE html>
 <html>
 <body>
+<link rel="stylesheet" type="text/css" href="style.css">
+<h1>Decimal to Binary Converter</h1>
 
-<h2>Decimal Converter</h2>
-    
+<div>
 <input id="numb">
     
-<button type="button" onclick="convert()">Submit</button>
+<button type="button" onclick="convert()" href="style.css" class="button">Submit</button>
     
 <p id="output"></p>
     
 <script>
+
 function convert()  //function to convert
 {
     
@@ -18,7 +20,7 @@ function convert()  //function to convert
     
     x = document.getElementById("numb").value;  //user input
     
-    if (isNaN(x))   //if the input is not a number, outputs error
+    if (isNaN(x) || x == "")   //if the input is not a number, outputs error
     {
         text = "Input is not valid";    //input validation
     }
@@ -31,6 +33,8 @@ function convert()  //function to convert
     document.getElementById("output").innerHTML = text;   //outputs the string
 }
 
+
 </script>
+</div>
 </body>
 </html>

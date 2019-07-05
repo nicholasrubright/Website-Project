@@ -1,0 +1,47 @@
+body {
+    background-color: #2c2f33;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+}
+
+.button {
+    width: 50%;
+    background-color: #dba3fa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #cd90ee
+}
+
+div
+{
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4-x;
+    box-sizing: border-box;
+}
+
+.output {
+    color: white;
+}
